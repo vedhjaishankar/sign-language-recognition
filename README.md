@@ -5,7 +5,7 @@ This project implements a robust Computer Vision system to classify 26 American 
 
 The project emphasizes a **strategic layer-freezing workflow** to balance the retention of general image features with the specific adaptation required for sign language recognition.
 
-## Key Features & Impact (Google XYZ)
+## Key Features & Impact
 * **Achieved high classification accuracy** across 26 gesture classes by fine-tuning a ResNet-18 CNN through targeted Transfer Learning.
 * **Validated model robustness** against real-world lighting and background variance by developing a custom evaluation methodology using a proprietary test set of 20+ original images.
 * **Balanced feature retention with task-specific adaptation** by implementing a strategic layer-freezing workflow, experimenting with various unfreezing checkpoints in the residual backbone.
@@ -34,3 +34,4 @@ The model was evaluated not just on standard datasets, but on a **proprietary te
 1. **Clone the repo:** `git clone https://github.com/vedhjaishankar/sign-language-recognition.git`
 2. **Install Dependencies:** `pip install torch torchvision scikit-learn pandas matplotlib`
 3. **Run the Notebook:** Open `static_asl_recognition.ipynb` to view the training and evaluation pipelines.
+
